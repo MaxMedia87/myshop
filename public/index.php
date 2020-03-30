@@ -8,3 +8,5 @@ new ishop\App();
 \ishop\App::$app->setProperty('test', 'Тут значение');
 
 debug(ishop\App::$app->getProperties());
+
+throw new Exception('Страница не найдена', 500);
