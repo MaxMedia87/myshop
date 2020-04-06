@@ -8,7 +8,7 @@ define('CORE', ROOT . '/vendor/ishop/core');
 define('LIBS', ROOT . '/vendor/ishop/core/libs');
 define('CACHE', ROOT . '/tmp/cache');
 define('CONF', ROOT . '/config');
-define('LAYOUT', 'default'); //шаблон сайта
+define('TEMPLATE', 'default'); //шаблон сайта
 
 $path = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 $path = preg_replace('#[^/]+$#', '', $path);

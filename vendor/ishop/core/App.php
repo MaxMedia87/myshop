@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 27.03.2020
- * Time: 15:19
- */
 
 namespace ishop;
 

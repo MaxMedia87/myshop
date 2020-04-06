@@ -32,9 +32,11 @@ class Router
     {
         if(self::matchRoute($url)){
             $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
+            //проверка на наличие класса
             if(class_exists($controller)){
                 $controllerObject = new $controller(self::$route);
                 $action = self::lowerCamelCase(self::$route['action']) . 'Action';
+                //проверка на наличие метода внутри класса
                 if(method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
                 } else {
@@ -67,7 +69,6 @@ class Router
                }
                $route['controller'] = self::upperCamelCase($route['controller']);
                self::$route = $route;
-               debug(self::$route);
                return true;
            }
        }

@@ -172,3 +172,7 @@
 ====================
 [2020-04-01 19:36:17] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 47
 ====================
+[2020-04-06 11:22:47] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 47
+====================
+[2020-04-06 11:54:20] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 41
+====================
