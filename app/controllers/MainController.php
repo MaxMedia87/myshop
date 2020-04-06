@@ -4,7 +4,6 @@ namespace app\controllers;
 
 class MainController extends AppController
 {
-    //public $template = 'test';
 
     public function indexAction()
     {
@@ -13,6 +12,5 @@ class MainController extends AppController
         $name = 'Максим';
         $age = 45;
         $this->setData(compact('name', 'age', 'products'));
-        //$this->setMeta(App::$app->getProperty('shopName'), 'Описание сайта', 'Ключевые слова');
     }
 }
