@@ -2,11 +2,15 @@
 error_reporting(E_ALL);
 require_once dirname(__DIR__) . '/config/init.php';
 require_once LIBS . '/functions.php';
+require_once CONF . '/routes.php';
 
 new ishop\App();
 
-\ishop\App::$app->setProperty('test', 'Тут значение');
+//debug(\ishop\Router::getRoutes());
 
-debug(ishop\App::$app->getProperties());
+//\ishop\App::$app->setProperty('test', 'Тут значение');
 
-throw new Exception('Страница не найдена', 500);
+//debug(ishop\App::$app->getProperties());
+//
+//throw new Exception('Страница не найдена', 500);
+
