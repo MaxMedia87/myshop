@@ -186,3 +186,19 @@
 ====================
 [2020-04-06 14:56:23] Текст ошибки: Не найден шаблон test2 | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\base\View.php Строка: 45
 ====================
+[2020-04-06 16:45:16] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 51
+====================
+[2020-04-06 16:50:54] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 52
+====================
+[2020-04-06 16:55:09] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 52
+====================
+[2020-04-06 16:55:27] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 52
+====================
+[2020-04-06 17:00:28] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 53
+====================
+[2020-04-06 17:00:45] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 53
+====================
+[2020-04-06 17:01:08] Текст ошибки: Call to undefined method app\controllers\PageController::getView() | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 45
+====================
+[2020-04-06 17:04:37] Текст ошибки: Не найден файл D:\OSPanel\domains\myshop/app/views/Page/view.php | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\base\View.php Строка: 41
+====================
