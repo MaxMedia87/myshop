@@ -176,3 +176,13 @@
 ====================
 [2020-04-06 11:54:20] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 41
 ====================
+[2020-04-06 14:23:57] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 45
+====================
+[2020-04-06 14:24:01] Текст ошибки: Метод app\controllers\PageController::indexAction не найден | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 45
+====================
+[2020-04-06 14:24:05] Текст ошибки: Call to undefined method app\controllers\PageController::getView() | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 43
+====================
+[2020-04-06 14:28:32] Текст ошибки: Контроллер app\controllers\WController не найден | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 48
+====================
+[2020-04-06 14:56:23] Текст ошибки: Не найден шаблон test2 | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\base\View.php Строка: 45
+====================

@@ -39,6 +39,8 @@ class Router
                 //проверка на наличие метода внутри класса
                 if(method_exists($controllerObject, $action)) {
                     $controllerObject->$action();
+                    //вызывает соответствующий метод внутри класса
+                    $controllerObject->getView();
                 } else {
                     throw new \Exception("Метод $controller::$action не найден", 404);
                 }

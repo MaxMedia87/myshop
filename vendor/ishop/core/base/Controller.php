@@ -9,9 +9,10 @@ abstract class Controller
     public $controller;
     public $model;
     public $view;
+    public $template;
     public $prefix;
     public $data = [];//Контент
-    public $meta = [];//Метаданные
+    public $meta = ['title' => '', 'description' => '', 'keywords' => ''];//Метаданные
 
     public function __construct($route)
     {
@@ -20,6 +21,12 @@ abstract class Controller
         $this->model = $route['controller'];
         $this->view = $route['action'];
         $this->prefix = $route['prefix'];
+    }
+
+    public function getView()
+    {
+        $viewObject = new View($this->route, $this->template, $this->view, $this->meta);
+        $viewObject->render($this->data);
     }
 
     public function setData($data)
