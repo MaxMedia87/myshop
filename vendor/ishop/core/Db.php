@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 06.04.2020
- * Time: 17:41
- */
 
 namespace ishop;
-
 
 class Db
 {
@@ -15,6 +8,13 @@ class Db
 
     protected function __construct()
     {
-        $db = require CONF . '/config_db.php;
+        $db = require CONF . '/config_db.php';
+        class_alias('\RedBeanPHP\R', '\R');
+        \R::setup($db['dsn'], $db['user'], $db['pass']);
+        if(!\R::testConnection()) {
+            throw new \Exception('Нет соединения с БД', 500);
+        } else {
+            echo 'Соединение установлено';
+        }
     }
 }

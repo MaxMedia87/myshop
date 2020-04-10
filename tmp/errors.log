@@ -202,3 +202,39 @@
 ====================
 [2020-04-06 17:04:37] Текст ошибки: Не найден файл D:\OSPanel\domains\myshop/app/views/Page/view.php | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\base\View.php Строка: 41
 ====================
+[2020-04-06 18:21:16] Текст ошибки: Class 'R' not found | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Db.php Строка: 14
+====================
+[2020-04-06 18:25:45] Текст ошибки: Class 'R' not found | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Db.php Строка: 14
+====================
+[2020-04-06 18:26:13] Текст ошибки: syntax error, unexpected 'use' (T_USE) | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Db.php Строка: 12
+====================
+[2020-04-06 18:30:31] Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Router.php Строка: 52
+====================
+[2020-04-06 18:32:32] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 18:33:21] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 18:38:24] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 18:40:22] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 18:40:28] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 18:45:52] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 18:55:56] Текст ошибки: Class 'R' not found | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Db.php Строка: 14
+====================
+[2020-04-06 18:56:23] Текст ошибки: Class 'R' not found | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Db.php Строка: 14
+====================
+[2020-04-06 19:07:48] Текст ошибки: Class 'ishop\R' not found | Файл: D:\OSPanel\domains\myshop\vendor\ishop\core\Db.php Строка: 13
+====================
+[2020-04-06 19:08:18] Текст ошибки: Class 'app\controllers\R' not found | Файл: D:\OSPanel\domains\myshop\app\controllers\MainController.php Строка: 10
+====================
+[2020-04-06 19:08:50] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 19:23:56] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 19:26:40] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
+[2020-04-06 19:27:25] Текст ошибки: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected | Файл: D:\OSPanel\domains\myshop\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php Строка: 194
+====================
